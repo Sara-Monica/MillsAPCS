@@ -4,15 +4,23 @@ public class LittleOldLadySong
 {
     public static void main(String[] args)
     {
-        System.out.println("I know an old lady who swallowed a fly,");
+        iKnowAnOldLady ();
+        System.out.println(" fly,");
         fly ();
-        System.out.println("I know an old lady who swallowed a spider,");
+        iKnowAnOldLady ();
+        System.out.println(" spider,");
         spider ();
-        System.out.println("I know an old lady who swallowed a bird,");
+        iKnowAnOldLady ();
+        System.out.println(" bird,");
         bird ();
-        System.out.println("I know an old lady who swallowed a cat,");
+        iKnowAnOldLady ();
+        System.out.println(" cat,");
         cat ();
         horse ();
+    }
+    public static void iKnowAnOldLady ()
+    {
+        System.out.print("I know an old lady who swallowed a");
     }
     public static void fly ()
     {
