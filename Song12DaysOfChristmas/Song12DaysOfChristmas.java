@@ -10,43 +10,43 @@ public class Song12DaysOfChristmas
     public static void main(String[] args)
     {
         System.out.print("On the first ");
-        truelove ();
+        trueLove ();
         partridge ();
         System.out.print("On the second ");
-        truelove ();
-        turtledove ();
+        trueLove ();
+        turtleDove ();
         System.out.print("On the third ");
-        truelove ();
-        frenchhen ();
+        trueLove ();
+        frenchHen ();
         System.out.print("On the fourth ");
-        truelove ();
-        callingbird ();
+        trueLove ();
+        callingBird ();
         System.out.print("On the fifth ");
-        truelove ();
-        goldring ();
+        trueLove ();
+        goldRing ();
         System.out.print("On the sixth ");
-        truelove ();
-        geeselaying ();
+        trueLove ();
+        geeseLaying ();
         System.out.print("On the seventh ");
-        truelove ();
-        swanswimming ();
+        trueLove ();
+        swanSwimming ();
         System.out.print("On the eighth ");
-        truelove ();
-        maidmilking ();
+        trueLove ();
+        maidMilking ();
         System.out.print("On the nineth ");
-        truelove ();
-        ladiesdancing ();
+        trueLove ();
+        ladiesDancing ();
         System.out.print("On the tenth ");
-        truelove ();
-        lordleaping ();
+        trueLove ();
+        lordLeaping ();
         System.out.print("On the tenth ");
-        truelove ();
-        piperspiping ();
+        trueLove ();
+        pipersPiping ();
         System.out.print("On the twelfth ");
-        truelove ();
-        drummersdrumming ();
+        trueLove ();
+        drummersDrumming ();
     }
-    public static void truelove ()
+    public static void trueLove ()
     {
         System.out.println("day of Christmas my true love sent to me");
     }
@@ -54,59 +54,59 @@ public class Song12DaysOfChristmas
     {
         System.out.println("A Partridge in a Pear Tree");
     }
-    public static void turtledove ()
+    public static void turtleDove ()
     {
         System.out.println("Two Turtle Doves and");
         partridge ();
     }
-    public static void frenchhen ()
+    public static void frenchHen ()
     {
         System.out.println("Three French Hens");
-        turtledove ();
+        turtleDove ();
     }
-    public static void callingbird ()
+    public static void callingBird ()
     {
           System.out.println("Four Calling Birds.");
-          frenchhen ();
+          frenchHen ();
     }
-    public static void goldring ()
+    public static void goldRing ()
     {
         System.out.println("Five Golden Rings,");
-        callingbird ();
+        callingBird ();
     }
-    public static void geeselaying ()
+    public static void geeseLaying ()
     {
         System.out.println("Six Geese a laying.");
-        goldring ();
+        goldRing ();
     }
-    public static void swanswimming ()
+    public static void swanSwimming ()
     {
         System.out.println("Seven Swans a Swimming");
-        geeselaying ();
+        geeseLaying ();
     }
-    public static void maidmilking ()
+    public static void maidMilking ()
     {
         System.out.println("Eight Maids a Milking");
-        swanswimming ();
+        swanSwimming ();
     }
-    public static void ladiesdancing ()
+    public static void ladiesDancing ()
     {
         System.out.println("Nine Ladies Dancing");
-        maidmilking ();
+        maidMilking ();
     }
-    public static void lordleaping ()
+    public static void lordLeaping ()
     {
         System.out.println("Ten Lords a Leaping");
-        ladiesdancing ();
+        ladiesDancing ();
     }
-    public static void piperspiping ()
+    public static void pipersPiping ()
     {
         System.out.println("Eleven Pipers Piping.");
-        lordleaping ();
+        lordLeaping ();
     }
-    public static void drummersdrumming ()
+    public static void drummersDrumming ()
     {
         System.out.println("Twelve Drummers Drumming");
-        lordleaping ();
+        pipersPiping ();
     }
 }
